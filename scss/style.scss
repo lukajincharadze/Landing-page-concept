@@ -1,0 +1,25 @@
+.background {
+    content: url(../img/woman-in-blue-crew-neck-shirt-using-black-laptop-computer-3994051.jpg);
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin: 0 auto;
+}
+.burger {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-box-2 {
+    ul {
+        display: flex;
+    }
+}

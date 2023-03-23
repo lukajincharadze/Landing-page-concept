@@ -1,0 +1,22 @@
+{
+  "name": "landing-page-concept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukajincharadze/Landing-page-concept.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukajincharadze/Landing-page-concept/issues"
+  },
+  "homepage": "https://github.com/lukajincharadze/Landing-page-concept#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
