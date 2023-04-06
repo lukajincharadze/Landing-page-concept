@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 
 .navigation {
   max-width: 1400px;
@@ -9,13 +10,14 @@
   background-color: #34373E;
   margin: 0 auto;
   clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  padding: 50px 100px 0 100px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 100px 0 100px;
+  margin-bottom: 80px;
 }
 
 .navbar-ul ul {
@@ -37,4 +39,71 @@
   letter-spacing: 2px;
 }
 
+.box1-title {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.box1 p {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.box1 {
+  max-width: 522px;
+  width: 100%;
+}
+
+.box2 img {
+  max-width: 679px;
+  width: 100%;
+}
+
+.boxbutton1 {
+  color: #fff;
+  background-color: #D84B4B;
+  border-radius: 32px;
+  max-width: 160px;
+  width: 100%;
+  height: 55px;
+  margin-right: 40px;
+}
+
+.boxbutton2 {
+  color: #fff;
+  background-color: #6A8BD6;
+  border-radius: 32px;
+  max-width: 160px;
+  width: 100%;
+  height: 55px;
+}
+
+.boxbutton1, .boxbutton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.boxbuttons {
+  display: flex;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.box1-title {
+  margin-bottom: 15px;
+}
+
+.boxbuttons {
+  margin-top: 30px;
+}
 /* END NAVIGATION */
