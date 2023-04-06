@@ -53,13 +53,17 @@
 }
 
 .box1 {
-  max-width: 522px;
+  max-width: 520px;
+  width: 100%;
+}
+
+.box2 {
+  max-width: 753px;
   width: 100%;
 }
 
 .box2 img {
-  max-width: 679px;
-  width: 100%;
+  
 }
 
 .boxbutton1 {
