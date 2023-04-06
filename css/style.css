@@ -1,20 +1,40 @@
-.background {
-  content: url(../img/woman-in-blue-crew-neck-shirt-using-black-laptop-computer-3994051.jpg);
-  max-width: 1920px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin: 0 auto; }
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.burger {
-  display: none; }
 
 .navigation {
-  display: flex;
-  justify-content: space-between; }
+  max-width: 1400px;
+  width: 100%;
+  height: 600px;
+  background-color: #34373E;
+  margin: 0 auto;
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+}
 
-.navigation-box-2 ul {
-  display: flex; }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 0 100px;
+}
+
+.navbar-ul ul {
+  display: flex;
+}
+
+.navbar-ul ul li {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-title h1 {
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* END NAVIGATION */
