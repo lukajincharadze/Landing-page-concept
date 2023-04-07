@@ -217,7 +217,7 @@
   font-weight: bold;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-
+  box-shadow: 0px 1px 1px 0px  rgba(0, 0, 0, 0.35);
 }
 
 .section2-h3 {
@@ -235,10 +235,25 @@
 .nintheendollar {
   font-size: 40px;
   font-weight: bold;
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
 }
 
+.section2button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D84B4B;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-bottom: 24px;
+}
 
+.section2button p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
 
 
 
