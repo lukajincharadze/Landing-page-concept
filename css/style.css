@@ -12,7 +12,7 @@
 
 .navigation {
   height: 600px;
-  background-color: #34373E;
+  background-color: #34373E;  
   clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
 }
 
@@ -58,11 +58,16 @@
 .box1 {
   max-width: 520px;
   width: 100%;
+  
 }
 
 .box2 {
   max-width: 753px;
   width: 100%;
+}
+
+.box2 img {
+  
 }
 
 .boxbutton1 {
@@ -192,6 +197,9 @@
 
 .section2 {
   margin-bottom: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section2box {
@@ -255,7 +263,9 @@
   font-size: 15px;
 }
 
+.premium {
 
+}
 
 
 
