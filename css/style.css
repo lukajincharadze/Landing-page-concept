@@ -10,64 +10,58 @@
   margin: 0 auto;
 }
 
-.navigation {
-  height: 600px;
-  background-color: #34373E;  
+.shape-container{
+  position:relative;
+  max-width: 1400px;
+  width: 100%;
+	height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.GreyDiv {
+	max-width: 1400px;
+  width: 100%;
+	height: 100%;
+  background-color: #34373E; 
   clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 80px;
+.shape-right{
+  position:absolute;
+  left: 550px;
+  bottom:0;
+  max-width: 753px;
+  width: 100%;
+	height: 80%;
+	background-image: url('/img/Phone_mockup_2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar-ul ul {
-  display: flex;
+
+.GreyDiv h1 {
+  max-width: 600px;
+  width: 100%;
 }
 
-.navbar-ul ul li {
-  margin-left: 60px;
-  font-size: 15px;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
-}
-
-.navbar-title h1 {
-  color: #fff;
-  font-family: 'Asap', sans-serif;
-  font-size: 27px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
 
 .box1-title {
   font-size: 50px;
   color: #fff;
   font-family: 'Schibsted Grotesk', sans-serif;
+  margin-bottom: 15px;
 }
 
-.box1 p {
+.GreyDiv p {
   color: #fff;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-}
-
-.box1 {
-  max-width: 520px;
-  width: 100%;
-  
-}
-
-.box2 {
-  max-width: 753px;
-  width: 100%;
-}
-
-.box2 img {
-  
+  margin-bottom: 28px;
 }
 
 .boxbutton1 {
@@ -101,18 +95,30 @@
   display: flex;
 }
 
-.nav-section {
+.navbar {
   display: flex;
-  justify-content: center;
-  align-items: top;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-.box1-title {
-  margin-bottom: 15px;
+.navbar-ul ul {
+  display: flex;
 }
 
-.boxbuttons {
-  margin-top: 30px;
+.navbar-ul ul li {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-title h1 {
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 /* END NAVIGATION */
@@ -123,13 +129,13 @@
 
 /* SECTION 1*/
 
-.section-title h1{
+.section-title h1 {
   font-size: 40px;
   font-family: 'Schibsted Grotesk', sans-serif;
   margin-bottom: 11px;
 }
 
-.section-title p{
+.section-title p {
   font-size: 18px;
   font-family: "Lato", sans-serif;
   opacity: 50%;
@@ -212,7 +218,7 @@
   width: 100%;
   height: 370px;
   border-radius: 6px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
