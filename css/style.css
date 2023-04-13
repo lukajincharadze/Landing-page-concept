@@ -72,6 +72,7 @@
   width: 100%;
   height: 55px;
   margin-right: 40px;
+  cursor: pointer;
 }
 
 .boxbutton2 {
@@ -81,6 +82,7 @@
   max-width: 160px;
   width: 100%;
   height: 55px;
+  cursor: pointer;
 }
 
 .boxbutton1, .boxbutton2 {
@@ -119,6 +121,7 @@
   font-size: 27px;
   font-weight: bold;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 
 /* END NAVIGATION */
@@ -222,6 +225,8 @@
   /* box-shadow: rgba(136, 136, 136, 0.35) 0px 5px 15px;  */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: all .5s;
+  cursor: pointer;
+
 }
 
 .section2box:hover,
@@ -308,6 +313,7 @@
   box-shadow: rgba(136, 136, 136, 0.35) 0px 5px 15px; 
   transition: all .5s;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .section2-h3-p {
@@ -358,3 +364,52 @@
 }
 
 /* END SECTION 2 */
+
+
+
+/* SECTION FORMS */
+
+.section-forms {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 940px;
+  width: 100%;
+  height: 480px;
+}
+
+.box1 {
+  max-width: 530px;
+  width: 100%;
+}
+
+.box2 {
+  max-width: 410px;
+  width: 100%;
+}
+
+
+.formh1 {
+  font-size: 40px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  margin-bottom: 6px;
+}
+
+.formP {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #6C7280;
+  margin-bottom: 36px;
+}
+
+.formP2 {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #6C7280;
+  line-height: 2;
+  max-width: 342px;
+  width: 100%;
+}
+
+/* END SECTION FORMS */
