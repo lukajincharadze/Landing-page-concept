@@ -204,7 +204,7 @@
 /* SECTION 2 */
 
 .section2 {
-  margin-bottom: 400px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -377,6 +377,7 @@
   max-width: 940px;
   width: 100%;
   height: 480px;
+  margin-bottom: 100px;
 }
 
 .box1 {
@@ -387,8 +388,59 @@
 .box2 {
   max-width: 410px;
   width: 100%;
+  height: 480px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.form-div {
+  max-width: 330px;
+  width: 100%;
+}
+
+.form-input {
+  padding-left: 20px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  outline: #dddd;
+  border: 1px solid #c8c8c8;
+  border-radius: 2.5px;
+}
+
+.form-input3 {
+  height: 160px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  resize: none;
+  padding-top: 22px;
+  padding-left: 20px;
+  outline: #dddd;
+  border: 2px solid #6A8BD6;
+  border-radius: 2.5px;
+}
+
+.send-button {
+  max-width: 330px;
+  width: 100%;
+}
+
+.form-button {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background-color: #6A8BD6;
+  outline: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 .formh1 {
   font-size: 40px;
@@ -413,3 +465,53 @@
 }
 
 /* END SECTION FORMS */
+
+
+/* FOOTER */
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #D84B4B;
+  height: 167px;
+}
+
+.navbar-ul-footer ul {
+  display: flex;
+}
+
+.navbar-ul ul li {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-title-footer {
+  margin-left: 100px;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+
+.navbar-ul-footer ul li {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.footerimg2-margin {
+  margin-left: 20px;
+}
+
+.footer-logos {
+  margin-right: 100px;
+}
+
+/* END FOOTER */
