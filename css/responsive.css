@@ -170,6 +170,20 @@
     .GreyDiv p {
         font-size: 15px;
     }
+
+    .section-forms {
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .formP2 {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 @media(max-width: 730px) {
@@ -195,6 +209,12 @@
     .section2 {
         margin-bottom: 600px;
     }
+
+    .box2 {
+        background-color: transparent;
+        border: none;
+    }
+
 }
 
 @media(max-width: 700px) {
@@ -335,6 +355,19 @@
     .section1-box {
         margin-bottom: 40px;
     }
+
+    .formh1 {
+        font-size: 25px;
+    }
+
+    .formP {
+        font-size: 15px;
+    }
+
+    .formP2 {
+        font-size: 13px;
+    }
+
 }
 
 @media(max-width: 391px) {
@@ -342,6 +375,14 @@
         font-size: 20px;
     }
 }
+
+@media(max-width: 380px) {
+    .box2 {
+        margin: 0 10px 0 10px;
+    }
+
+}
+
 
 @media(max-width: 375px) {
     .navbar-ul ul li {
@@ -354,5 +395,9 @@
 
     .shape-container {
         height: 370px;
+    }
+
+    .formP2 {
+        width: 80%;
     }
 }
