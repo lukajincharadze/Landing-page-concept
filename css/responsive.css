@@ -1,12 +1,12 @@
 @media(max-width: 1300px) {
     .shape-right {
-        left: 454px;
+        left: 433px;
     }
 }
 
 @media(max-width: 1200px) {
     .shape-right {
-        left: 409px;
+        left: 383px;
     }
 }
 
@@ -14,7 +14,7 @@
     .shape-right {
         width: 50%;
         background-size: auto;
-        left: 500px;
+        left: 480px;
     }
 
     .navbar-titleH1 {
@@ -103,6 +103,14 @@
     .inborder {
         padding: 50px 50px 0 40px;
     }
+
+    .footer-logos {
+        margin-right: 20px;
+    }
+    
+    .navbar-title-footer {
+        margin-left: 20px;
+    }
 }
 
 @media(max-width: 940px) {
@@ -113,7 +121,7 @@
 
 @media(max-width: 895px) {
     .shape-right {
-        left: 400px;
+        left: 376px;
     }
     .GreyDiv {
         height: 100%;
@@ -130,7 +138,7 @@
 
     }
     .shape-right {
-        left: 345px;
+        left: 329px;
         top: 100px;
     }
 
@@ -173,6 +181,11 @@
 
     .section-forms {
         flex-wrap: wrap;
+        margin-bottom: 400px;
+    }
+
+    .navbar-ul-footer ul li {
+        margin-left: 30px;
     }
 
     .box1 {
@@ -288,6 +301,30 @@
     .inborder {
         padding: 25px 50px 0 40px;
     }
+
+    .footer-div {
+        text-align: center;
+        flex-direction: column;
+        height: 200px;
+        padding: 20px 0 20px 0;
+    }
+
+    .navbar-title-footer {
+        margin-left: 0;
+    }
+
+    .navbar-ul-footer ul li {
+        margin-left: 0;
+        margin: 0 8px;
+    }
+
+    .navbar-ul-footer ul  {
+        display: flex;
+        justify-content: space-between;
+        max-width: 330px;
+        width: 100%;
+    }
+
 }
 
 @media(max-width: 600px) {
@@ -388,16 +425,27 @@
     .navbar-ul ul li {
         margin-left: 10px;
     }
-
+    
     .box1-title {
         font-size: 20px;
     }
-
+    
     .shape-container {
         height: 370px;
     }
-
+    
     .formP2 {
         width: 80%;
+    }
+}
+
+@media(max-width: 350px) {
+    .navbar-ul-footer ul  {
+        flex-direction: column;
+        line-height: 2.5;
+    }
+
+    .footer-div {
+        height: 310px;
     }
 }
