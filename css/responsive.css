@@ -331,6 +331,16 @@
     .shape-right {
         left: 240px;
     }
+
+    .navbar-ul ul li {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        color: #fff;
+    }
+
 }
 
 @media(max-width: 500px) {
@@ -420,11 +430,7 @@
 
 }
 
-
 @media(max-width: 375px) {
-    .navbar-ul ul li {
-        margin-left: 10px;
-    }
     
     .box1-title {
         font-size: 20px;
