@@ -328,14 +328,19 @@
 }
 
 @media(max-width: 600px) {
+    .shape-right {
+        left: 245px;
+        top: 119px;
+    }
     .navbar-ul ul li {
         margin-left: 0;
         margin: 20px;
     }
-    .shape-right {
-        left: 240px;
-    }
 
+
+}
+
+@media(max-width: 500px) {
     .toggle-button {
         display: block;
     }
@@ -367,9 +372,8 @@
         height: 150%;
     }
 
-}
+    /* end burger  */
 
-@media(max-width: 500px) {
     .shape-right {
         position: static;
     }
@@ -400,6 +404,7 @@
         display: block;
         background-color: #34373E; 
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        /* height: 647px; */
         height: 420px;
     }
 
