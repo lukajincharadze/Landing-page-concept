@@ -16,17 +16,6 @@ function toggleElements() {
     }
   
     burgerIcon.classList.toggle('active');
-
-
-
-
-    // if (shapeContainer.style.height != '420px') {
-    //   shapeContainer.style.height = '647px';
-    //   // navBarLinks.classList.remove('active');
-    // } else {
-    //   shapeContainer.style.height = '420px';
-    //   // navBarLinks.classList.add('active');
-    // }
   }
   
   const burgerIcon = document.getElementById('burgerIcon');
