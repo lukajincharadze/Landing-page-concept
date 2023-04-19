@@ -125,7 +125,13 @@
   cursor: pointer;
 }
 
-.burger {
+.toggle-button {
+  cursor: pointer;
+  position: absolute;
+  top: 23px;
+  right: 49px;
+  font-size: 20px;
+  color: #fff;
   display: none;
 }
 
